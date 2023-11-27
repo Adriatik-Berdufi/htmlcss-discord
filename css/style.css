@@ -143,12 +143,12 @@ p {
 /*   last-section*/
 .box-section.last-section {
   height: 100%;
+  background-color: #d3d3d3;
 }
 .last-section > div > img {
   display: flex;
   flex-direction: column;
   height: 600px;
-  background-color: #d3d3d3;
 }
 
 .last-section > .box-section {
@@ -174,8 +174,7 @@ p {
   max-height: 100%;
   object-fit: contain;
 }
-.stelle {
-}
+
 /*** section description**/
 
 /*footer*/
@@ -247,4 +246,14 @@ p {
 .button.button-blu {
   background-color: #2c5ee9;
   color: white;
+}
+.wave {
+  display: block;
+  transform: scale(1);
+  width: 100%;
+  filter: invert(75%) sepia(81%) saturate(0%) hue-rotate(222deg) brightness(97%)
+    contrast(94%);
+}
+.wave.wave-reverse {
+  transform: rotate(180deg);
 }
