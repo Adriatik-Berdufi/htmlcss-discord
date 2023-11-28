@@ -238,9 +238,13 @@ p {
 .bandiera {
   height: 1rem;
 }
-.vari-social {
+
+.vari-social,
+.lingua {
   display: flex;
-  gap: 25px;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
 }
 .footer-bottone .accedi,
 .button.button-blu {
