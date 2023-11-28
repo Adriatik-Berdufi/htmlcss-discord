@@ -251,6 +251,10 @@ p {
   background-color: #2c5ee9;
   color: white;
 }
+.footer-bottone .accedi:hover,
+.button.button-blu:hover {
+  background-color: #111111;
+}
 .wave {
   display: block;
   transform: scale(1);
